@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <RelativeLayout
+            android:id="@+id/RL1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/overflow_more_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:src="@drawable/ic_more_vert_black_24dp"
+                android:layout_alignParentEnd="true"/>
+
+            <LinearLayout
+                android:id="@+id/LRD1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/d_img"
+                    android:layout_width="92dp"
+                    android:layout_height="140dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/bc_new"
+                    android:src="@drawable/ic_person_black_24dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/d_title"
+                        android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="50sp"
+                        android:text="Title gauri shankar gdkjfd dfk" />
+
+                    <TextView
+                        android:id="@+id/d_desc"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="New Capacitor full pack of 100 of a having"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="17dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quantity :"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/item_quantity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorBlack"
+                            android:text="Quantity"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lr_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/LRD1"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/product_off_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="Sell Price"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/product_real_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="Real Price"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/product_discount_percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="52% off"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="13sp" />
+
+
+            </LinearLayout>
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cart_item_remove_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lr_b"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="22dp"
+                app:cardElevation="6dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Remove"
+                        android:padding="13dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15dp" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+

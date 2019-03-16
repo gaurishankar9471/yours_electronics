@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "402185328130",
+    "firebase_url": "https://yours-electronics.firebaseio.com",
+    "project_id": "yours-electronics",
+    "storage_bucket": "yours-electronics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402185328130:android:d46509f0874414f8",
+        "android_client_info": {
+          "package_name": "com.yourselectronics.gauridev.yourselectronics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402185328130-fgq22cvhabfvedevnfllm3qag068usos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yourselectronics.gauridev.yourselectronics",
+            "certificate_hash": "8c81f030ce865ed4f1c0327f5de7b9a5ae2954c5"
+          }
+        },
+        {
+          "client_id": "402185328130-3e0hmk45m2n8hehjtos08d588a4q1h69.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "402185328130-3e0hmk45m2n8hehjtos08d588a4q1h69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO7Gxo8vsLy7dYiMrNne83KFLma3iIKAs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402185328130-3e0hmk45m2n8hehjtos08d588a4q1h69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

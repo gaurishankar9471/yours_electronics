@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yourselectronics.gauridev.yourselectronics">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".Service.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity android:name=".ShoppingCartActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ProductDetailActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name=".SplashActivity">
+
+        </activity>
+        <activity android:name=".VideoTutorialActivity" />
+        <activity android:name=".OrderActivity" />
+
+        <service
+            android:name=".Service.ListenOrderStatus"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".OrderHelperActivity">
+            <intent-filter>
+                <action android:name="com.yourselectronics.gauridev.yourselectronics.OrderHelperActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".TermsActivity" />
+        <activity android:name=".PrivacyActivity" />
+        <activity android:name=".ProductFullImageActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".ChatHomeActivity"> </activity>
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <meta-data android:name="instamojo.orderauth.url"
+                   android:value="http://yourselectronics.com/334XSATTREFSFT576_token.php"
+            />
+    </application>
+    <uses-permission-sdk-23 android:name="android.permission.RECEIVE_SMS"/>
+ 
+    <uses-permission-sdk-23 android:name="android.permission.READ_SMS"/>
+ 
+    <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_STATE"/>
+ 
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+ 
+    <uses-permission android:name="android.permission.READ_SMS"/>
+ 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+ 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ 
+
+</manifest>

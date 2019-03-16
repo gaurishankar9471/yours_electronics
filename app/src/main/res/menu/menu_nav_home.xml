@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item android:title="Menu">
+            <menu>
+                <item
+                    android:id="@+id/home_nav_icon"
+                    android:title="Home"
+                    android:icon="@drawable/ic_action_home"
+                    app:showAsAction="ifRoom"/>
+
+                <item
+                    android:id="@+id/category_nav_icon"
+                    android:icon="@drawable/ic_action_category"
+                    app:showAsAction="never"
+                    android:title="Categories"/>
+            </menu>
+
+        </item>
+
+
+        <item
+            android:id="@+id/top_offers_nav_icon"
+            android:icon="@drawable/ic_action_top_offers"
+            app:showAsAction="never"
+            android:title="Top Offers"/>
+
+        <item
+            android:id="@+id/todays_deals_nav_icon"
+            android:title="Today's Deals"
+            android:icon="@drawable/ic_action_todays_deals"
+            app:showAsAction="never"/>
+
+
+        <item
+            android:id="@+id/my_account"
+            android:title="My Account"
+            android:icon="@drawable/ic_action_account"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/my_orders_nav_icon"
+            android:title="My Orders"
+            android:icon="@drawable/ic_action_orders_"
+            app:showAsAction="never"/>
+
+
+
+    </group>
+
+    <item android:title="Account">
+
+
+        <menu>
+
+            <item
+                android:id="@+id/log_in_nav_icon"
+                android:icon="@drawable/ic_action_log_in"
+                app:showAsAction="never"
+                android:title="Log in"/>
+
+
+        </menu>
+
+
+        </item>
+
+    <group android:id="@+id/daas">
+        <item
+            android:id="@+id/live_help_nav_icon"
+            android:icon="@drawable/ic_action_live_help"
+            app:showAsAction="never"
+            android:title="Live Help"/>
+        <item
+            android:id="@+id/contact_nav_icon"
+            android:icon="@drawable/ic_action_contact_us"
+            app:showAsAction="never"
+            android:title="Contact Us"/>
+        <item
+            android:id="@+id/about_us_nav_icon"
+            android:icon="@drawable/ic_action_about_us"
+            app:showAsAction="never"
+            android:title="About Us"/>
+
+
+        <item
+            android:id="@+id/privacy_policy_nav_icon"
+            android:icon="@drawable/ic_action_privacypolicy"
+            app:showAsAction="never"
+            android:title="Privacy Policy"/>
+    </group>
+
+
+    <group android:id="@+id/dsf">
+            <item
+                android:id="@+id/share_nav_icon"
+                android:title="Share App"
+                android:icon="@drawable/ic_action_share"/>
+            <item
+                android:id="@+id/rate_us_nav_icon"
+                android:title="Rate Us"
+                android:icon="@drawable/ic_action_rate_us"/>
+
+    </group>
+
+
+
+
+
+</menu>

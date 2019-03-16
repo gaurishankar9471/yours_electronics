@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/hoz_img"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_person_black_24dp"/>
+
+    <TextView
+        android:id="@+id/hoz_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Title"/>
+
+        <TextView
+            android:id="@+id/hoz_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:text="off percentage" />
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

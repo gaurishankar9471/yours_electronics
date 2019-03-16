@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+       <ImageView
+           android:id="@+id/offer_hoz_card_img"
+           android:layout_width="80dp"
+           android:layout_height="120dp"
+           android:layout_margin="10dp"
+           android:src="@drawable/bc_one"/>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="10dp"
+      android:layout_gravity="center_vertical"
+      android:orientation="vertical">
+      <TextView
+          android:id="@+id/offer_hoz_card_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:maxLines="1"
+          android:ellipsize="end"
+          android:textSize="15sp"
+          android:text="Tile"/>
+      <TextView
+          android:id="@+id/offer_hoz_card_desc"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:maxLines="2"
+          android:ellipsize="end"
+          android:textColor="@color/colorBlack"
+          android:textSize="17sp"
+          android:text="Product Description"/>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/product_desc"
+          android:paddingStart="5dp"
+          android:layout_centerHorizontal="true"
+          android:orientation="horizontal">
+
+          <TextView
+              android:id="@+id/product_off_price"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Sell Price"
+              android:textColor="@color/colorBlack"
+              android:textSize="18dp"
+              android:layout_marginEnd="5dp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/product_real_price"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginEnd="5dp"
+              android:text="Real Price" />
+
+          <TextView
+              android:id="@+id/product_discount_percentage"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="16sp"
+              android:textColor="@color/colorPrimary"
+              android:layout_marginEnd="5dp"
+              android:text="52% off" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="3dp"
+              android:text="New Launched"/>
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_check_black_24dp"/>
+
+      </LinearLayout>
+
+
+  </LinearLayout>
+
+  </LinearLayout>
+
+</android.support.v7.widget.CardView>
