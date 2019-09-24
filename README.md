@@ -1,0 +1,2 @@
+# A E-Commerce Android Application
+An e-commerce application named YoursElectronics designed through android studio using Java as the base programming language. Primarily designed to sell electronic devices with varied categories namely Capacitors, resistors, relays, Integrated Circuits, potentiometer etc. The payment gateway used for this application is Instamojo along with various other features added like Live Help page, Today's Deals, Offers and much more.
